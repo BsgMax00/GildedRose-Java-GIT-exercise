@@ -2,10 +2,10 @@ package com.gildedrose.items;
 
 import com.gildedrose.core.Item;
 
-public class SwitchItem extends Item {
+public class SwitchItems extends Item {
 
 
-    public SwitchItem(String name, int sellIn, int quality) {
+    public SwitchItems(String name, int sellIn, int quality) {
         super(name, sellIn, quality);
     }
 
