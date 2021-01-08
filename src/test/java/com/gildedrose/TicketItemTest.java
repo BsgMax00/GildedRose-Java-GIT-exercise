@@ -14,7 +14,7 @@ public class TicketItemTest {
     void increaseQuality() {
         app.calculateNextDay();
         assert(app.items[0].sellIn == 19);
-        assert(app.items[0].quality == 21);
+        assert(app.items[0].quality == 22);
         app.calculateNextDay();
         assert(app.items[0].sellIn == 18);
         assert(app.items[0].quality == 22);
